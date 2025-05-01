@@ -1,0 +1,7 @@
+Flask==2.2.5
+flask_cors==4.0.1
+scikit-learn==1.4.2
+Sentence_transformers==3.0.1
+numpy==1.26.4
+scipy==1.13.1
+torch==2.2.2
