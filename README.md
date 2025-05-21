@@ -6,7 +6,7 @@
 #### Clone the Repository
 Clone the repository using the following command:
 
-```git clone https://github.com/AnonymousResearch173/StackRanker.git```
+```git clone https://github.com/AnonymousResearch173/SO_Difficulty.git```
 
 #### Install Dependencies
 Install the required packages:
