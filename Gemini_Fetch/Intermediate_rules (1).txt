@@ -1,0 +1,43 @@
+ok, now I am sharing the intermediate class rules - 
+
+Difficulty class - Intermediate
+
+Intermediate- General Rule set
+point [I] Questions that require a relatively deeper understanding of the language to answer, for example, 'Why-type' questions
+
+Granular breakdown of point [I] - 
+1) Advance features of a language that requires a deeper understanding
+2) Need more knowledge about the algorithms
+3) Multiple questions in a single post
+4) Need knowledge on Advanced Programming topics
+5) Difference between two packages
+
+Intermediate- General Rule set
+point [II] Questions where the questioner knows about the answer/solution but wants to know a more efficient one
+
+Granular breakdown of point [II] - 
+1) Looking for a contextually suitable solution despite having a solution
+2) Analyzing various solutions for execution time
+
+Intermediate- General rule set 
+Point[III] Questions related to time complexity, memory usage or other different resource usages of a system/solution
+
+Granular breakdown of point [III] - 
+1) Efficient way
+2) Performance, optimization, accuracy
+3) Memory related
+
+Intermediate- General rule set 
+Point[IV]  Questions need conceptual reasoning of programming construct/design principle
+
+Granular breakdown of point [IV] - 
+1) Reverse programming
+2) Underlying philosophy of any programming construct
+3) Design pattern
+4) Feasibility study
+5) Question about built-in documentation in details
+6) Required Testing Related Knowledge
+
+------ End of Intermediate part -----
+
+can you please update the table and show how does it look after incorporating the intermediate part. please continue from the basic part onwards.
