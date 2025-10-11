@@ -30,5 +30,3 @@
 |                 | CodeBERT        | 66.2 | 65.9 | 66.0 | 66.1 | 0.715 |
 
 ---
-- **Across Languages:** Java yields the highest performance, followed by JavaScript, C++, Merged, and Python, matching prior StackRanker trends.
-- **General Trend:** BERT shows the weakest performance across all languages, while MiniLM and CodeBERT remain competitive mid-tier performers.
