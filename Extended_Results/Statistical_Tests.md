@@ -1,8 +1,8 @@
 # Statistical Analysis Results — StackRanker Evaluation
 
-This document presents the detailed statistical evaluation conducted for comparing **StackRanker** and baseline models (Hasan, Raida, WoLoRA, WoSMOTE, WoSPEAR).  
-All tests were performed on **F1-score** and **Accuracy** metrics across five random seeds.  
-Shapiro–Wilk tests were used to assess normality, followed by paired *t*-tests, Wilcoxon signed-rank tests, and computation of **Cohen’s d** effect sizes.  
+In this document, we present the detailed statistical evaluation conducted for comparing StackRanker and baseline models (Hasan, Raida, Wo/LoRA, Wo/SMOTE, Wo/SPEAR).  
+All tests were performed on F1-score and Accuracy metrics across five random seeds.  
+Shapiro–Wilk tests were used to assess normality, followed by paired t-tests, Wilcoxon signed-rank tests, and computation of Cohen’s d effect sizes.  
 Finally, Friedman tests were performed to confirm significance across models.
 
 ---
@@ -85,9 +85,3 @@ Finally, Friedman tests were performed to confirm significance across models.
 | Accuracy | 123.8800 | 4.7271e-25 | ✅ Yes |
 
 ---
-
-### ✅ Interpretation Summary
-
-- **Normality**: All models except *Hasan* are normally distributed.
-- **Pairwise comparisons**: StackRanker consistently outperforms all baselines across both F1 and Accuracy (p < 0.001, large effect sizes).
-- **Friedman test** confirms statistically significant differences among all models.
