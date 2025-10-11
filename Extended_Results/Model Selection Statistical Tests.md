@@ -47,5 +47,3 @@ While BGE shows a statistically significant improvement in Accuracy over most ba
 
 
 ---
-
-*This markdown file accompanies the model comparison section (Table 5) in the manuscript and provides detailed statistical evidence supporting the selection of the BGE model for subsequent experiments.*
