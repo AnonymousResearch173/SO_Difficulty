@@ -9,11 +9,9 @@ This document summarizes the hyperparameter search space explored for all model 
 | Parameter | Search Space | Optimal Value |
 |------------|---------------|----------------|
 | r (rank) | [4, 8] | 8 |
-| α (scaling factor) | [8, 16, 32] | 16 |
+| α (scaling factor) | [8, 16, 32] | 32 |
 | Dropout | [0.05, 0.1, 0.2] | 0.1 |
-| Target Modules | [["query", "value"], ["key", "value"], ["query", "key"], ["query", "key", "value"]] | ["query", "key", "value"] |
-| Learning Rate | [1e-5, 2e-5, 3e-5] *(default LoRA range)* | 2e-5 |
-| Epochs | [3, 5, 8] | 5 |
+| Target Modules | [["query", "value"], ["key", "value"], ["query", "key"], ["query", "key", "value"]] | ["key", "value"] |
 
 ---
 
@@ -22,7 +20,7 @@ This document summarizes the hyperparameter search space explored for all model 
 ### Random Forest
 | Parameter | Search Space | Optimal Value |
 |------------|---------------|----------------|
-| n_estimators | [100, 200, 300, **400**] | **400** |
+| n_estimators | [100, 200, 300, 400] | 400 |
 | max_depth | [10, 20, 30, None] | 20 |
 | min_samples_split | [2, 5, 10] | 5 |
 | min_samples_leaf | [1, 2, 4] | 1 |
@@ -34,7 +32,7 @@ This document summarizes the hyperparameter search space explored for all model 
 ### Extra Trees
 | Parameter | Search Space | Optimal Value |
 |------------|---------------|----------------|
-| n_estimators | [100, 200, 300, **400**] | **400** |
+| n_estimators | [100, 200, 300, 400] | 400 |
 | max_depth | [10, 20, 30, None] | 20 |
 | min_samples_split | [2, 5, 10] | 5 |
 | min_samples_leaf | [1, 2, 4] | 1 |
@@ -59,7 +57,7 @@ This document summarizes the hyperparameter search space explored for all model 
 ### LightGBM
 | Parameter | Search Space | Optimal Value |
 |------------|---------------|----------------|
-| n_estimators | [100, 200, 300, **400**] | **400** |
+| n_estimators | [100, 200, 300, 400] | 400 |
 | learning_rate | [0.01, 0.05, 0.1] | 0.1 |
 | max_depth | [-1, 10, 20, 30] | -1 |
 | num_leaves | [31, 50, 100] | 31 |
