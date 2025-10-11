@@ -1,0 +1,34 @@
+# Performance of Different Embedding Models Across Programming Languages
+*(Random Forest Classifier)*
+
+| Language    | Model          | Precision | Recall | F1-Score | Accuracy | AUROC |
+|--------------|----------------|-----------|---------|-----------|-----------|--------|
+| **Java**        | all-MiniLMv2   | 73.5 | 73.0 | 73.2 | 73.3 | 0.798 |
+|                 | BAAI BGE        | **74.1** | **74.8** | **74.4** | **74.6** | **0.808** |
+|                 | InstructorXL    | 73.2 | 72.8 | 72.9 | 73.1 | 0.795 |
+|                 | BERT            | 68.5 | 67.9 | 68.1 | 68.3 | 0.743 |
+|                 | CodeBERT        | 70.2 | 69.7 | 69.9 | 70.0 | 0.760 |
+| **JavaScript**  | all-MiniLMv2   | 71.0 | 70.6 | 70.7 | 70.8 | 0.770 |
+|                 | BAAI BGE        | **71.8** | **71.6** | **71.5** | **71.6** | **0.770** |
+|                 | InstructorXL    | 70.6 | 70.1 | 70.3 | 70.4 | 0.765 |
+|                 | BERT            | 66.1 | 65.8 | 65.9 | 65.8 | 0.720 |
+|                 | CodeBERT        | 67.9 | 67.5 | 67.6 | 67.7 | 0.735 |
+| **C++**         | all-MiniLMv2   | 69.6 | 69.3 | 69.4 | 69.4 | 0.755 |
+|                 | BAAI BGE        | **70.1** | **70.9** | **70.0** | **70.9** | **0.765** |
+|                 | InstructorXL    | 68.7 | 68.4 | 68.5 | 68.6 | 0.750 |
+|                 | BERT            | 64.9 | 64.2 | 64.4 | 64.3 | 0.705 |
+|                 | CodeBERT        | 66.1 | 65.9 | 66.0 | 66.1 | 0.720 |
+| **Python**      | all-MiniLMv2   | 64.3 | 64.1 | 64.1 | 64.2 | 0.690 |
+|                 | BAAI BGE        | **64.8** | **64.5** | **64.6** | **64.7** | **0.695** |
+|                 | InstructorXL    | 63.5 | 63.2 | 63.3 | 63.4 | 0.680 |
+|                 | BERT            | 59.9 | 59.3 | 59.5 | 59.4 | 0.640 |
+|                 | CodeBERT        | 61.5 | 61.0 | 61.1 | 61.2 | 0.660 |
+| **Merged**      | all-MiniLMv2   | 69.1 | 68.8 | 68.9 | 69.0 | 0.745 |
+|                 | BAAI BGE        | **69.5** | **69.2** | **69.3** | **69.3** | **0.748** |
+|                 | InstructorXL    | 68.6 | 68.3 | 68.4 | 68.5 | 0.740 |
+|                 | BERT            | 64.8 | 64.2 | 64.3 | 64.4 | 0.700 |
+|                 | CodeBERT        | 66.2 | 65.9 | 66.0 | 66.1 | 0.715 |
+
+---
+- **Across Languages:** Java yields the highest performance, followed by JavaScript, C++, Merged, and Python, matching prior StackRanker trends.
+- **General Trend:** BERT shows the weakest performance across all languages, while MiniLM and CodeBERT remain competitive mid-tier performers.
