@@ -1,0 +1,50 @@
+so far so good, now I'm providing the last class, difficulty level- advanced.
+
+Difficulty class - Advanced
+
+Advanced- General Rule set
+point [I] Questions that deal with hard/critical problems where solution needs in-depth programming knowledge or conceptual/logical thinking
+
+Granular breakdown of point [I] - 
+1) Solution needs in-depth programming knowledge or conceptual thinking
+2) Despite of large analysis, several unsolved issues
+3) Improvement of existing answers
+
+Advanced- General Rule set
+point [II] Questions that require advanced in-depth knowledge of internal language structure
+
+Granular breakdown of point [II] - 
+1) In-depth knowledge of internal language structure
+2) In-depth knowledge of packages
+3) In-depth knowledge on Garbage Collection
+
+Advanced- General rule set 
+Point[III] Questions that deals with infrequently used functions
+
+Granular breakdown of point [III] - 
+1) Deals with infrequently/rarely used framework/API/functions
+2) Deals with deprecated framework/functions/API
+
+Advanced- General rule set 
+Point[IV]  Question that requires in-depth knowledge about software architecture & SDLC
+
+Granular breakdown of point [IV] - 
+1) In-depth knowledge of software architecture
+2) In-depth knowledge of software maintenance
+3) In-depth testing and security knowledge
+
+Advanced- General rule set 
+Point[V] Related to production environment
+
+Granular breakdown of point [V] - 
+1) Efficiency related question
+2) Deployment related question
+
+Advanced- General rule set 
+Point[VI] Question that deals with large data set and diversified topics
+
+Granular breakdown of point [VI] - 
+1) Data mining/ Deep Learning/Artificial Intelligence
+2) Need in-depth knowledge of multiple topics
+
+Generate only the Difficulty Tag for this question, based on the above rules.

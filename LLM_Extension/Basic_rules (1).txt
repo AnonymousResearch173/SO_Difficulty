@@ -1,0 +1,39 @@
+ok, so here goes - 
+
+Difficulty class - Basic
+
+Basic - General Rule set
+point [I] Questions on simple built-in functions/API documentation/beginner-level knowledge
+
+Granular breakdown of point [I] - 
+1) Regular Built-in-function
+2) Simple Operator/Expression
+3) API documentation
+4) Beginner level Theory Question
+5) Basic OOP problem
+
+
+Basic - General Rule set
+point [II] Questions related to the comparison between concepts and functions of various languages
+
+Granular breakdown of point [II] - 
+1) Analysis of various languages’ functions
+2) Beginner level difference related query
+3) Simple problem-solving in other languages
+
+Basic - General rule set 
+Point[III] Questions about simple problem-solving or a random topic
+
+Granular breakdown of point [III] - 
+1) Simple problem solving
+2) Random query
+
+Basic - General rule set 
+Point[IV]  Questions with simple exceptions, errors, and other problem
+
+Granular breakdown of point [IV] - 
+1) Solve for null pointer exception
+2) Simple Error Handling
+3) Configuration problem solved by documentation
+
+------ End of Basic part -----

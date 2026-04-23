@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Stack Overflow Gemini Assistant",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting", "http://localhost:5000/"],
+    "host_permissions": ["https://stackoverflow.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://stackoverflow.com/questions/*"],
+        "js": ["content.js"]
+      }
+    ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "Basic_rules (1).txt",
+        "Intermediate_rules (1).txt",
+        "Advanced_rules (1).txt",
+        "*.txt"
+      ],
+      "matches": ["https://stackoverflow.com/*"]
+    }
+  ],
+    "action": {
+      "default_popup": ""
+    }
+  }
+  
